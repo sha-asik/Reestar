@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(circle, #00b09b, #96c93d);
+}
+.navbar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.navbar__menu{
+    color: greenyellow;
+}
+
+.container{
+    text-align: center;
+}
+
+.card-one,.card-two,.card-three,.card-four{
+    display: inline-block;
+    border: solid black 2px;
+    padding: 10px;
+    vertical-align: top;
+
+}
+
+.card-one__desc,.card-two__desc,.card-three__desc,.card-four__desc{
+    padding: 5px;
+}
+
+.card-one__button,.card-two__button,.card-three__button,.card-four__button{
+ padding: 10px;
+ background-color: black;
+ color: greenyellow;
+ border-radius: 10px;
+ 
+}
+
+.contact{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.table{
+    display: inline-block;
+    text-align: center;
+}
+
+.send{
+    text-align: center;
+    background-color: chartreuse;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
